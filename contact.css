@@ -1,0 +1,167 @@
+html {
+    box-sizing: border-box;
+   font-family: 'Merriweather', serif;
+    
+  }
+  
+  body {
+    background: #fff;
+    margin: 0px 100px;
+   
+  }
+  
+  .btn {
+    background:#fff;
+    color: #333;
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border-radius: 30px;
+    width: 50%;
+    text-align: center;
+    float: right;
+      font-weight: bold;
+  }
+  
+  img {
+  max-width: 50%;
+  }
+  
+  .wrapper {
+    display: grid;
+     margin: 0px 30px;
+     
+  }
+
+  
+  /* Navigation */
+  .main-nav ul {
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    
+  }
+  
+  .main-nav a {
+    color: #ddd;
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.452);
+    font-size: 1rem;
+    font-weight: bold;
+   
+  }
+    .main-nav a:hover {
+     color:#333;
+       font-weight: bold;
+  }
+  
+ .main-nav a:focus {
+  color:#333;
+       font-weight: bold;
+}
+
+ /*Header*/
+  header{
+background-color:rgb(206, 238, 248);
+display: flex;
+justify-content: space-around;
+height: 400px;
+  }
+  header img{
+      width: 300px;
+      height: 300px;;
+      align-self: flex-end;
+        margin-bottom: 0%;
+  }
+  header h1{
+   text-align: center;
+   padding: 10rem;
+   font-size: 48px;
+      
+  }
+
+  /*main*/
+  main{
+      background-color: rgb(160, 158, 158);
+      display: flex;
+      align-items: center;
+     
+  }
+  main h1{
+   color: #fff;
+   text-align: center;
+   padding: 10rem;
+   margin: 3rem;
+   font-size: 48px;
+  }
+
+  .container{
+      background-color:rgb(160, 158, 158);
+    width: 600px;
+    height: 400px;
+   margin: 50px ;
+   box-sizing: border-box;
+    padding: 20px;
+    
+  }
+    
+  .input,
+  .msg .area{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid #e9eaea;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+   
+  }
+  
+  .login .input{
+    width: 100%;
+    float: left;
+    margin-right: 2%;
+  }
+  
+  .login .input:last-child{
+    margin-right: 0;
+  }
+  
+  .msg .area{
+    height: 200px;
+  }
+  
+
+  #map {
+
+  height: 500px;
+  position: relative;
+}
+#navi
+ {
+  width: 30%;
+  height: 40%;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  background-color: orange;
+  text-align: center;
+  font-weight: 600;
+}
+
+  footer {
+    background-color: rgb(160, 158, 158);
+        height: 200px;
+    width: 100%;
+  }
+  
+  
+  
+    
+ 
+  
